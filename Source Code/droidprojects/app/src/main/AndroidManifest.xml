@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="esbalao.reservationsystem">
+    implementation 'com.android.support:appcompat-v7:28.0.0-alpha1'
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/apc"
+        android:label="BUS QUEUEING SYSTEM"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".QueueActivity"></activity>
+    </application>
+
+</manifest>
